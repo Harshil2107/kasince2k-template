@@ -1,0 +1,178 @@
+{
+  "id": "kasince2k-template",
+  "name": "kasince2k Template",
+  "description": "This is a test template based on the epic website by kasince2k",
+  "tags":["basic"],
+  "image": "image.png",
+  "schema": {
+    "cloneName": {
+      "type": "string",
+      "page": "index.html",
+      "default": "basic-template"
+    },
+    "name": {
+      "type": "string",
+      "page": "index.html",
+      "default": ""
+    },
+    "summary": {
+      "type": "textarea",
+      "page": "index.html",
+      "default": ""
+    },
+    "education": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "university": {
+          "type": "string",
+          "default": ""
+        },
+        "startYear": {
+          "type": "string",
+          "default": ""
+        },
+        "endYear": {
+          "type": "string",
+          "default": ""
+        },
+        "major": {
+          "type": "string",
+          "default": ""
+        },
+        "gpa": {
+          "type": "integer",
+          "default": 0
+        },
+        "addInfo": {
+          "type": "string",
+          "default": ""
+        },
+        "releventCoursework": {
+          "type": "textarea",
+          "default": ""
+        }
+      }
+    },
+    "workExperience": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "company": {
+          "type": "string",
+          "default": ""
+        },
+        "location": {
+          "type": "string",
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "default": ""
+        },
+        "startDate": {
+          "type": "string",
+          "default": ""
+        },
+        "endDate": {
+          "type": "string",
+          "default": ""
+        },
+        "summary": {
+          "type": "textarea",
+          "default": ""
+        },
+        "image": {
+          "type": "image",
+          "default": ""
+        }
+      }
+    },
+    "publication": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "publication": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "description": {
+          "type": "textarea",
+          "default": ""
+        },
+        "source": {
+          "type": "link",
+          "default": ""
+        },
+        "demo": {
+          "type": "link",
+          "default": ""
+        },
+        "image": {
+          "type": "image",
+          "default": ""
+        },
+        "startDate": {
+          "type": "string",
+          "default": ""
+        },
+        "endDate": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "skills": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "achievements": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "date": {
+          "type": "string",
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "link": {
+          "type": "link",
+          "default": ""
+        }
+      }
+    }
+  }
+}
